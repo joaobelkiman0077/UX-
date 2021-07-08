@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+html,body{
+    font-family: sans-serif hk-grotesk;
+    background-color:#0c0d0d;
+    background-image: url("textura-2.png");
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.titulo-cor{
+    color:#ed145b;
+}
+.titulo{
+    font-size: 30px;
+}
+.titulo :hover{
+    color: whitesmoke;
+    transition-delay: 0.1s;
+}
+.container{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+}
+li{
+    display: inline;
+    margin-right: 25px;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+}
+a{
+    color: #ed145b;
+    text-decoration: none;
+    padding: 5px;
+}
+li :hover{
+    color: whitesmoke;
+    transition-delay: 0.1s;
+}
+a:link{
+    text-decoration: none;
+}
+img{
+    height: 10%;
+    width: 10%;
+    padding: 10px;
+}
+.img :hover{
+    opacity: 80%;
+}
+hr{
+    width: 50%;
+    color: #4f5355;
+    background-color: #4f5355;
+    border-color: #4f5355;
+}
+#hr1{
+    width: 80%;
+    color: #4f5355;
+    background-color: #4f5355;
+    border-color: #878a8b;
+}
+.pagina{
+    font-size: 15px;
+    color: white;
+    text-align:center;
+}
+.cabecalho{
+    font-size:60px;
+    margin-left: 10%;
+    font-family: 'Abel', sans-serif;
+    text-align: left;
+    color: whitesmoke;
+}
+p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Abel', sans-serif;
+   
+}
+
+form{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 20px;
+}
+input{
+    width: 80%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border: 1px solid #373c3f;
+    background-color: #222423;
+    height: 10%;
+    color:#ed145b;
+    font-size: 20px;
+}
+label{
+    margin-top: 5%;
+    color: #ed145b;
+}
+textarea{
+    width: 80%;
+    margin-top: 5px;
+    background-color: #222423;
+    color:#ed145b;
+    margin-bottom: 5%;
+    border: 1px solid #373c3f;
+}
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bem-vindo{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family:  'Abel', sans-serif;
+    font-size:60px;
+}
+.sobre{
+    font-family:  'Abel', sans-serif;
+    font-size: 60px;
+}
+.paragrafo-contato{
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+.mobile-menu{
+    cursor: pointer;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 5px;
+    margin: 8px;
+    background-color: whitesmoke;
+}
+.botton{
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin-left: 65%;
+}
+.botao{
+    height: 50%;
+    font-size: 100%;
+}
+.botton :hover{
+    text-shadow: 0 0 2px hs1(0 0% 100%/0.3), 0 0 16px;
+    box-shadow: inset 0 0 6px 0 #ed145b, 0 0 32px 0 #ed145b ;
+    cursor: pointer;
+}
+.botton :before{
+    position: absolute;
+    left: 0;
+    background-color: #ed145b;
+    width: 100%;
+}
+.agradecimento{
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: 'Abel', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.paragrafo-enviar{
+    font-size: 30px;
+}
+.numero{
+    color: #ed145b;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+}
+.color{
+    background-color: #ed145b;
+    height: 100px;
+    margin-top: 10%;
+}
+@media(max-width: 999px){
+    h1{
+        font-size: 100%;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+    .atalhos li{
+        font-size: 100%;
+    }
+    p{
+        font-size: 100%;
+    }
+    .botao{
+        width: 150%;
+        font-size: 50%;
+    }
+}
